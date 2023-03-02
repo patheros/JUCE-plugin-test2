@@ -7,8 +7,8 @@ OutputBaseFilename=TestPlugin-{#Version}-Windows
 AppCopyright=Copyright (C) {#Year} Andrew Hanson
 AppPublisher=Andrew Hanson
 AppVersion={#Version}
-DefaultDirName="{commoncf64}\VST3"
+DefaultDirName="{commoncf64}\VST3\TestPlugin.vst3\"
 DisableStartupPrompt=yes
 
 [Files]
-Source: "..\Builds\TestPlugin_artefacts\Release\VST3\TestPlugin.vst3\*.*"; DestDir: "{commoncf64}\VST3\TestPlugin.vst3\"; Flags: external overwritereadonly ignoreversion; Attribs: hidden system;
+Source: "..\Builds\TestPlugin_artefacts\Release\VST3\TestPlugin.vst3\*.*"; DestDir: "{app}"; Flags: overwritereadonly ignoreversion;
